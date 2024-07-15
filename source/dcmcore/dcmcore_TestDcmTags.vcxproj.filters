@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore_TestDcmTags_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\test\test_TestDcmTags.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore_TestDcmTags_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore_TestDcmTags_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore_TestDcmTags_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\test\TestDcmTags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2567D024-3055-320A-A6A0-8F0FA5014102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A45E866D-08BD-36BF-81BB-9AB0F218D873}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

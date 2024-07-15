@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C944F4F1-A405-33A9-BC44-9E92F0A288C9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gabriel/Documents/qt_lab/szpital -BC:/Users/Gabriel/Documents/qt_lab/szpital_b --check-stamp-file C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseArguments.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Test\Qt5TestConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Test\Qt5TestConfigExtras.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Test\Qt5TestConfigVersion.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\build_shared_library.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\link_libs.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\parse_src.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\parse_tests.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\resources\dcmcore.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gabriel/Documents/qt_lab/szpital -BC:/Users/Gabriel/Documents/qt_lab/szpital_b --check-stamp-file C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseArguments.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Test\Qt5TestConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Test\Qt5TestConfigExtras.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Test\Qt5TestConfigVersion.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\build_shared_library.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\link_libs.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\parse_src.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\parse_tests.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\resources\dcmcore.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gabriel/Documents/qt_lab/szpital -BC:/Users/Gabriel/Documents/qt_lab/szpital_b --check-stamp-file C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseArguments.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Test\Qt5TestConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Test\Qt5TestConfigExtras.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Test\Qt5TestConfigVersion.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\build_shared_library.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\link_libs.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\parse_src.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\parse_tests.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\resources\dcmcore.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gabriel/Documents/qt_lab/szpital -BC:/Users/Gabriel/Documents/qt_lab/szpital_b --check-stamp-file C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseArguments.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Test\Qt5TestConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Test\Qt5TestConfigExtras.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Test\Qt5TestConfigVersion.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\build_shared_library.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\link_libs.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\parse_src.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\parse_tests.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\resources\dcmcore.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\ZERO_CHECK.vcxproj">
+      <Project>{38234D2B-F9A3-370C-BD51-4E6F52B1E98E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore.vcxproj">
+      <Project>{638134DA-3ACB-3A2B-B0A4-2B9334491E9A}</Project>
+      <Name>dcmcore</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore_TestDcmCharSet.vcxproj">
+      <Project>{7D332247-747A-3838-91CB-A6732BB1C4B8}</Project>
+      <Name>dcmcore_TestDcmCharSet</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore_TestDcmDictionary.vcxproj">
+      <Project>{531D9B6C-075B-32F6-AE6A-0BD709F3C55A}</Project>
+      <Name>dcmcore_TestDcmDictionary</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore_TestDcmReader.vcxproj">
+      <Project>{42AFAB5D-D198-3526-A39F-ED00CEF88AC1}</Project>
+      <Name>dcmcore_TestDcmReader</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore_TestDcmTagGroup.vcxproj">
+      <Project>{F61D3F65-86C4-3C12-B1CC-A196D2DCB70C}</Project>
+      <Name>dcmcore_TestDcmTagGroup</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore_TestDcmTagKey.vcxproj">
+      <Project>{1CC8DDD9-852D-373C-BC32-ED3D9E3562D4}</Project>
+      <Name>dcmcore_TestDcmTagKey</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore_TestDcmTagSequence.vcxproj">
+      <Project>{4D608FC9-1517-3F28-A9ED-412A2FF9EA48}</Project>
+      <Name>dcmcore_TestDcmTagSequence</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore_TestDcmTagString.vcxproj">
+      <Project>{455198DA-5DDF-32AD-B573-B608E5653998}</Project>
+      <Name>dcmcore_TestDcmTagString</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore_TestDcmTags.vcxproj">
+      <Project>{F22E8CEC-C957-3D7F-9890-BD8C2406D7D4}</Project>
+      <Name>dcmcore_TestDcmTags</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore_TestDcmTransferSyntax.vcxproj">
+      <Project>{DD3FB380-0D37-33E5-8476-0ABDA535F435}</Project>
+      <Name>dcmcore_TestDcmTransferSyntax</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore_TestDcmVr.vcxproj">
+      <Project>{818686D9-60C3-303D-AF67-121FF122E127}</Project>
+      <Name>dcmcore_TestDcmVr</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

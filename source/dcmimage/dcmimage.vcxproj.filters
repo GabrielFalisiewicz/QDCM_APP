@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmimage\dcmimage_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmimage\src\DcmImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmimage\src\DcmImageTransferFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmimage\src\DcmMonochromeImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmimage\src\DcmPhotometricInterpretation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmimage\dcmimage_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmimage\dcmimage_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmimage\dcmimage_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmimage\include\DcmImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmimage\include\DcmImageApi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmimage\include\DcmImageTransferFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmimage\include\DcmMonochromeImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmimage\include\DcmPhotometricInterpretation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmimage\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2567D024-3055-320A-A6A0-8F0FA5014102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A45E866D-08BD-36BF-81BB-9AB0F218D873}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
