@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C944F4F1-A405-33A9-BC44-9E92F0A288C9}</ProjectGuid>
+    <ProjectGuid>{5D0917E3-0E13-3DCA-8CA4-2EF9AF30924F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -69,7 +69,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital_b\tools\dcmview;C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview;C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview\include;C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmimage\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview;C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview\include;C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmimage\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -79,7 +79,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital_b\tools\dcmview;C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview;C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview\include;C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmimage\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview;C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview\include;C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmimage\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -89,7 +89,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital_b\tools\dcmview;C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview;C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview\include;C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmimage\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview;C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview\include;C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmimage\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -99,7 +99,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital_b\tools\dcmview;C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview;C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview\include;C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmimage\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview;C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview\include;C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmimage\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -112,7 +112,7 @@
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Gabriel/Documents/qt_lab/szpital/tools/dcmview/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gabriel/Documents/qt_lab/szpital -BC:/Users/Gabriel/Documents/qt_lab/szpital_b --check-stamp-file C:/Users/Gabriel/Documents/qt_lab/szpital_b/tools/dcmview/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gabriel/Documents/qt_lab/szpital -BC:/Users/Gabriel/Documents/qt_lab/szpital --check-stamp-file C:/Users/Gabriel/Documents/qt_lab/szpital/tools/dcmview/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -121,11 +121,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseArguments.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\build_executable.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\link_libs.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\parse_src.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview\resources\dcmview.qrc;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gabriel\Documents\qt_lab\szpital_b\tools\dcmview\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Gabriel/Documents/qt_lab/szpital/tools/dcmview/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gabriel/Documents/qt_lab/szpital -BC:/Users/Gabriel/Documents/qt_lab/szpital_b --check-stamp-file C:/Users/Gabriel/Documents/qt_lab/szpital_b/tools/dcmview/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gabriel/Documents/qt_lab/szpital -BC:/Users/Gabriel/Documents/qt_lab/szpital --check-stamp-file C:/Users/Gabriel/Documents/qt_lab/szpital/tools/dcmview/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -134,11 +134,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseArguments.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\build_executable.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\link_libs.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\parse_src.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview\resources\dcmview.qrc;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Gabriel\Documents\qt_lab\szpital_b\tools\dcmview\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Gabriel/Documents/qt_lab/szpital/tools/dcmview/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gabriel/Documents/qt_lab/szpital -BC:/Users/Gabriel/Documents/qt_lab/szpital_b --check-stamp-file C:/Users/Gabriel/Documents/qt_lab/szpital_b/tools/dcmview/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gabriel/Documents/qt_lab/szpital -BC:/Users/Gabriel/Documents/qt_lab/szpital --check-stamp-file C:/Users/Gabriel/Documents/qt_lab/szpital/tools/dcmview/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -147,11 +147,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseArguments.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\build_executable.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\link_libs.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\parse_src.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview\resources\dcmview.qrc;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Gabriel\Documents\qt_lab\szpital_b\tools\dcmview\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Gabriel/Documents/qt_lab/szpital/tools/dcmview/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gabriel/Documents/qt_lab/szpital -BC:/Users/Gabriel/Documents/qt_lab/szpital_b --check-stamp-file C:/Users/Gabriel/Documents/qt_lab/szpital_b/tools/dcmview/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gabriel/Documents/qt_lab/szpital -BC:/Users/Gabriel/Documents/qt_lab/szpital --check-stamp-file C:/Users/Gabriel/Documents/qt_lab/szpital/tools/dcmview/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -160,21 +160,21 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseArguments.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\build_executable.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\link_libs.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\parse_src.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview\resources\dcmview.qrc;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Gabriel\Documents\qt_lab\szpital_b\tools\dcmview\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\ZERO_CHECK.vcxproj">
-      <Project>{38234D2B-F9A3-370C-BD51-4E6F52B1E98E}</Project>
+    <ProjectReference Include="C:\Users\Gabriel\Documents\qt_lab\szpital\ZERO_CHECK.vcxproj">
+      <Project>{CF48A707-A6E8-3B73-AE66-A5A63DA94588}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\tools\dcmview\dcmview.vcxproj">
-      <Project>{B3C6A897-B9F1-3AD3-9B44-CF93A74F46BC}</Project>
+    <ProjectReference Include="C:\Users\Gabriel\Documents\qt_lab\szpital\tools\dcmview\dcmview.vcxproj">
+      <Project>{0DF46200-AD56-32E3-B822-BD07E430D9D0}</Project>
       <Name>dcmview</Name>
     </ProjectReference>
   </ItemGroup>

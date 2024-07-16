@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{455198DA-5DDF-32AD-B573-B608E5653998}</ProjectGuid>
+    <ProjectGuid>{B3ED2B63-F156-3E99-8B6A-A886691C8B0D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gabriel\Documents\qt_lab\szpital_b\target\bin\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gabriel\Documents\qt_lab\szpital\target\bin\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">dcmcore_TestDcmTagString.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">dcmcore_TestDcmTagString</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Gabriel\Documents\qt_lab\szpital_b\target\bin\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Gabriel\Documents\qt_lab\szpital\target\bin\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">dcmcore_TestDcmTagString.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">dcmcore_TestDcmTagString</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Gabriel\Documents\qt_lab\szpital_b\target\bin\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Gabriel\Documents\qt_lab\szpital\target\bin\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">dcmcore_TestDcmTagString.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">dcmcore_TestDcmTagString</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Gabriel\Documents\qt_lab\szpital_b\target\bin\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Gabriel\Documents\qt_lab\szpital\target\bin\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">dcmcore_TestDcmTagString.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">dcmcore_TestDcmTagString</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore_TestDcmTagString_autogen\include_Debug;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\dcmcore_TestDcmTagString_autogen\include_Debug;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Qt/5.15.1/mingw81_64/include" /external:I "C:/Qt/5.15.1/mingw81_64/include/QtCore" /external:I "C:/Qt/5.15.1/mingw81_64/./mkspecs/win32-g++" /external:I "C:/Qt/5.15.1/mingw81_64/include/QtTest" /external:I "C:/Qt/5.15.1/mingw81_64/include/QtXml"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -102,16 +102,16 @@
       <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;QT_CORE_LIB;QT_TESTLIB_LIB;QT_XML_LIB;QMUSIC_VERSION="0.0.1";QMUSIC_API_VERSION="1.0.0";NOMINMAX;QT_TESTCASE_BUILDDIR="C:/Users/Gabriel/Documents/qt_lab/szpital_b";CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;QT_CORE_LIB;QT_TESTLIB_LIB;QT_XML_LIB;QMUSIC_VERSION="0.0.1";QMUSIC_API_VERSION="1.0.0";NOMINMAX;QT_TESTCASE_BUILDDIR="C:/Users/Gabriel/Documents/qt_lab/szpital";CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;QT_CORE_LIB;QT_TESTLIB_LIB;QT_XML_LIB;QMUSIC_VERSION=\"0.0.1\";QMUSIC_API_VERSION=\"1.0.0\";NOMINMAX;QT_TESTCASE_BUILDDIR=\"C:/Users/Gabriel/Documents/qt_lab/szpital_b\";CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore_TestDcmTagString_autogen\include_Debug;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\test;C:\Qt\5.15.1\mingw81_64\include;C:\Qt\5.15.1\mingw81_64\include\QtCore;C:\Qt\5.15.1\mingw81_64\.\mkspecs\win32-g++;C:\Qt\5.15.1\mingw81_64\include\QtTest;C:\Qt\5.15.1\mingw81_64\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;QT_CORE_LIB;QT_TESTLIB_LIB;QT_XML_LIB;QMUSIC_VERSION=\"0.0.1\";QMUSIC_API_VERSION=\"1.0.0\";NOMINMAX;QT_TESTCASE_BUILDDIR=\"C:/Users/Gabriel/Documents/qt_lab/szpital\";CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\dcmcore_TestDcmTagString_autogen\include_Debug;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\test;C:\Qt\5.15.1\mingw81_64\include;C:\Qt\5.15.1\mingw81_64\include\QtCore;C:\Qt\5.15.1\mingw81_64\.\mkspecs\win32-g++;C:\Qt\5.15.1\mingw81_64\include\QtTest;C:\Qt\5.15.1\mingw81_64\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore_TestDcmTagString_autogen\include_Debug;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\test;C:\Qt\5.15.1\mingw81_64\include;C:\Qt\5.15.1\mingw81_64\include\QtCore;C:\Qt\5.15.1\mingw81_64\.\mkspecs\win32-g++;C:\Qt\5.15.1\mingw81_64\include\QtTest;C:\Qt\5.15.1\mingw81_64\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\dcmcore_TestDcmTagString_autogen\include_Debug;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\test;C:\Qt\5.15.1\mingw81_64\include;C:\Qt\5.15.1\mingw81_64\include\QtCore;C:\Qt\5.15.1\mingw81_64\.\mkspecs\win32-g++;C:\Qt\5.15.1\mingw81_64\include\QtTest;C:\Qt\5.15.1\mingw81_64\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -122,11 +122,11 @@
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message>Automatic MOC for target dcmcore_TestDcmTagString</Message>
       <Command>setlocal
-cd C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore
+cd C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/CMakeFiles/dcmcore_TestDcmTagString_autogen.dir/AutogenInfo.json Debug
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/CMakeFiles/dcmcore_TestDcmTagString_autogen.dir/AutogenInfo.json Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -141,8 +141,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Gabriel/Documents/qt_lab/szpital_b/target/lib/Debug/dcmcore_TestDcmTagString.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Gabriel/Documents/qt_lab/szpital_b/target/bin/Debug/dcmcore_TestDcmTagString.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Gabriel/Documents/qt_lab/szpital/target/lib/Debug/dcmcore_TestDcmTagString.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Gabriel/Documents/qt_lab/szpital/target/bin/Debug/dcmcore_TestDcmTagString.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -151,7 +151,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore_TestDcmTagString_autogen\include_Release;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\dcmcore_TestDcmTagString_autogen\include_Release;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Qt/5.15.1/mingw81_64/include" /external:I "C:/Qt/5.15.1/mingw81_64/include/QtCore" /external:I "C:/Qt/5.15.1/mingw81_64/./mkspecs/win32-g++" /external:I "C:/Qt/5.15.1/mingw81_64/include/QtTest" /external:I "C:/Qt/5.15.1/mingw81_64/include/QtXml"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -166,18 +166,18 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_TESTLIB_LIB;QT_XML_LIB;QMUSIC_VERSION="0.0.1";QMUSIC_API_VERSION="1.0.0";NOMINMAX;QT_NO_DEBUG;QT_TESTCASE_BUILDDIR="C:/Users/Gabriel/Documents/qt_lab/szpital_b";CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_TESTLIB_LIB;QT_XML_LIB;QMUSIC_VERSION="0.0.1";QMUSIC_API_VERSION="1.0.0";NOMINMAX;QT_NO_DEBUG;QT_TESTCASE_BUILDDIR="C:/Users/Gabriel/Documents/qt_lab/szpital";CMAKE_INTDIR="Release"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_TESTLIB_LIB;QT_XML_LIB;QMUSIC_VERSION=\"0.0.1\";QMUSIC_API_VERSION=\"1.0.0\";NOMINMAX;QT_NO_DEBUG;QT_TESTCASE_BUILDDIR=\"C:/Users/Gabriel/Documents/qt_lab/szpital_b\";CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore_TestDcmTagString_autogen\include_Release;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\test;C:\Qt\5.15.1\mingw81_64\include;C:\Qt\5.15.1\mingw81_64\include\QtCore;C:\Qt\5.15.1\mingw81_64\.\mkspecs\win32-g++;C:\Qt\5.15.1\mingw81_64\include\QtTest;C:\Qt\5.15.1\mingw81_64\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_TESTLIB_LIB;QT_XML_LIB;QMUSIC_VERSION=\"0.0.1\";QMUSIC_API_VERSION=\"1.0.0\";NOMINMAX;QT_NO_DEBUG;QT_TESTCASE_BUILDDIR=\"C:/Users/Gabriel/Documents/qt_lab/szpital\";CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\dcmcore_TestDcmTagString_autogen\include_Release;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\test;C:\Qt\5.15.1\mingw81_64\include;C:\Qt\5.15.1\mingw81_64\include\QtCore;C:\Qt\5.15.1\mingw81_64\.\mkspecs\win32-g++;C:\Qt\5.15.1\mingw81_64\include\QtTest;C:\Qt\5.15.1\mingw81_64\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore_TestDcmTagString_autogen\include_Release;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\test;C:\Qt\5.15.1\mingw81_64\include;C:\Qt\5.15.1\mingw81_64\include\QtCore;C:\Qt\5.15.1\mingw81_64\.\mkspecs\win32-g++;C:\Qt\5.15.1\mingw81_64\include\QtTest;C:\Qt\5.15.1\mingw81_64\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\dcmcore_TestDcmTagString_autogen\include_Release;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\test;C:\Qt\5.15.1\mingw81_64\include;C:\Qt\5.15.1\mingw81_64\include\QtCore;C:\Qt\5.15.1\mingw81_64\.\mkspecs\win32-g++;C:\Qt\5.15.1\mingw81_64\include\QtTest;C:\Qt\5.15.1\mingw81_64\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -188,11 +188,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message>Automatic MOC for target dcmcore_TestDcmTagString</Message>
       <Command>setlocal
-cd C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore
+cd C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/CMakeFiles/dcmcore_TestDcmTagString_autogen.dir/AutogenInfo.json Release
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/CMakeFiles/dcmcore_TestDcmTagString_autogen.dir/AutogenInfo.json Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -207,8 +207,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Gabriel/Documents/qt_lab/szpital_b/target/lib/Release/dcmcore_TestDcmTagString.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Gabriel/Documents/qt_lab/szpital_b/target/bin/Release/dcmcore_TestDcmTagString.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Gabriel/Documents/qt_lab/szpital/target/lib/Release/dcmcore_TestDcmTagString.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Gabriel/Documents/qt_lab/szpital/target/bin/Release/dcmcore_TestDcmTagString.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -217,7 +217,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore_TestDcmTagString_autogen\include_MinSizeRel;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\dcmcore_TestDcmTagString_autogen\include_MinSizeRel;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Qt/5.15.1/mingw81_64/include" /external:I "C:/Qt/5.15.1/mingw81_64/include/QtCore" /external:I "C:/Qt/5.15.1/mingw81_64/./mkspecs/win32-g++" /external:I "C:/Qt/5.15.1/mingw81_64/include/QtTest" /external:I "C:/Qt/5.15.1/mingw81_64/include/QtXml"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -232,18 +232,18 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_TESTLIB_LIB;QT_XML_LIB;QMUSIC_VERSION="0.0.1";QMUSIC_API_VERSION="1.0.0";NOMINMAX;QT_NO_DEBUG;QT_TESTCASE_BUILDDIR="C:/Users/Gabriel/Documents/qt_lab/szpital_b";CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_TESTLIB_LIB;QT_XML_LIB;QMUSIC_VERSION="0.0.1";QMUSIC_API_VERSION="1.0.0";NOMINMAX;QT_NO_DEBUG;QT_TESTCASE_BUILDDIR="C:/Users/Gabriel/Documents/qt_lab/szpital";CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_TESTLIB_LIB;QT_XML_LIB;QMUSIC_VERSION=\"0.0.1\";QMUSIC_API_VERSION=\"1.0.0\";NOMINMAX;QT_NO_DEBUG;QT_TESTCASE_BUILDDIR=\"C:/Users/Gabriel/Documents/qt_lab/szpital_b\";CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore_TestDcmTagString_autogen\include_MinSizeRel;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\test;C:\Qt\5.15.1\mingw81_64\include;C:\Qt\5.15.1\mingw81_64\include\QtCore;C:\Qt\5.15.1\mingw81_64\.\mkspecs\win32-g++;C:\Qt\5.15.1\mingw81_64\include\QtTest;C:\Qt\5.15.1\mingw81_64\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_TESTLIB_LIB;QT_XML_LIB;QMUSIC_VERSION=\"0.0.1\";QMUSIC_API_VERSION=\"1.0.0\";NOMINMAX;QT_NO_DEBUG;QT_TESTCASE_BUILDDIR=\"C:/Users/Gabriel/Documents/qt_lab/szpital\";CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\dcmcore_TestDcmTagString_autogen\include_MinSizeRel;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\test;C:\Qt\5.15.1\mingw81_64\include;C:\Qt\5.15.1\mingw81_64\include\QtCore;C:\Qt\5.15.1\mingw81_64\.\mkspecs\win32-g++;C:\Qt\5.15.1\mingw81_64\include\QtTest;C:\Qt\5.15.1\mingw81_64\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore_TestDcmTagString_autogen\include_MinSizeRel;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\test;C:\Qt\5.15.1\mingw81_64\include;C:\Qt\5.15.1\mingw81_64\include\QtCore;C:\Qt\5.15.1\mingw81_64\.\mkspecs\win32-g++;C:\Qt\5.15.1\mingw81_64\include\QtTest;C:\Qt\5.15.1\mingw81_64\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\dcmcore_TestDcmTagString_autogen\include_MinSizeRel;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\test;C:\Qt\5.15.1\mingw81_64\include;C:\Qt\5.15.1\mingw81_64\include\QtCore;C:\Qt\5.15.1\mingw81_64\.\mkspecs\win32-g++;C:\Qt\5.15.1\mingw81_64\include\QtTest;C:\Qt\5.15.1\mingw81_64\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -254,11 +254,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message>Automatic MOC for target dcmcore_TestDcmTagString</Message>
       <Command>setlocal
-cd C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore
+cd C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/CMakeFiles/dcmcore_TestDcmTagString_autogen.dir/AutogenInfo.json MinSizeRel
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/CMakeFiles/dcmcore_TestDcmTagString_autogen.dir/AutogenInfo.json MinSizeRel
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -273,8 +273,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Gabriel/Documents/qt_lab/szpital_b/target/lib/MinSizeRel/dcmcore_TestDcmTagString.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Gabriel/Documents/qt_lab/szpital_b/target/bin/MinSizeRel/dcmcore_TestDcmTagString.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Gabriel/Documents/qt_lab/szpital/target/lib/MinSizeRel/dcmcore_TestDcmTagString.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Gabriel/Documents/qt_lab/szpital/target/bin/MinSizeRel/dcmcore_TestDcmTagString.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -283,7 +283,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore_TestDcmTagString_autogen\include_RelWithDebInfo;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\dcmcore_TestDcmTagString_autogen\include_RelWithDebInfo;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Qt/5.15.1/mingw81_64/include" /external:I "C:/Qt/5.15.1/mingw81_64/include/QtCore" /external:I "C:/Qt/5.15.1/mingw81_64/./mkspecs/win32-g++" /external:I "C:/Qt/5.15.1/mingw81_64/include/QtTest" /external:I "C:/Qt/5.15.1/mingw81_64/include/QtXml"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -299,16 +299,16 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_TESTLIB_LIB;QT_XML_LIB;QMUSIC_VERSION="0.0.1";QMUSIC_API_VERSION="1.0.0";NOMINMAX;QT_NO_DEBUG;QT_TESTCASE_BUILDDIR="C:/Users/Gabriel/Documents/qt_lab/szpital_b";CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_TESTLIB_LIB;QT_XML_LIB;QMUSIC_VERSION="0.0.1";QMUSIC_API_VERSION="1.0.0";NOMINMAX;QT_NO_DEBUG;QT_TESTCASE_BUILDDIR="C:/Users/Gabriel/Documents/qt_lab/szpital";CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_TESTLIB_LIB;QT_XML_LIB;QMUSIC_VERSION=\"0.0.1\";QMUSIC_API_VERSION=\"1.0.0\";NOMINMAX;QT_NO_DEBUG;QT_TESTCASE_BUILDDIR=\"C:/Users/Gabriel/Documents/qt_lab/szpital_b\";CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore_TestDcmTagString_autogen\include_RelWithDebInfo;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\test;C:\Qt\5.15.1\mingw81_64\include;C:\Qt\5.15.1\mingw81_64\include\QtCore;C:\Qt\5.15.1\mingw81_64\.\mkspecs\win32-g++;C:\Qt\5.15.1\mingw81_64\include\QtTest;C:\Qt\5.15.1\mingw81_64\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_TESTLIB_LIB;QT_XML_LIB;QMUSIC_VERSION=\"0.0.1\";QMUSIC_API_VERSION=\"1.0.0\";NOMINMAX;QT_NO_DEBUG;QT_TESTCASE_BUILDDIR=\"C:/Users/Gabriel/Documents/qt_lab/szpital\";CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\dcmcore_TestDcmTagString_autogen\include_RelWithDebInfo;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\test;C:\Qt\5.15.1\mingw81_64\include;C:\Qt\5.15.1\mingw81_64\include\QtCore;C:\Qt\5.15.1\mingw81_64\.\mkspecs\win32-g++;C:\Qt\5.15.1\mingw81_64\include\QtTest;C:\Qt\5.15.1\mingw81_64\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore_TestDcmTagString_autogen\include_RelWithDebInfo;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\test;C:\Qt\5.15.1\mingw81_64\include;C:\Qt\5.15.1\mingw81_64\include\QtCore;C:\Qt\5.15.1\mingw81_64\.\mkspecs\win32-g++;C:\Qt\5.15.1\mingw81_64\include\QtTest;C:\Qt\5.15.1\mingw81_64\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\dcmcore_TestDcmTagString_autogen\include_RelWithDebInfo;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\include;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\src;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\test;C:\Qt\5.15.1\mingw81_64\include;C:\Qt\5.15.1\mingw81_64\include\QtCore;C:\Qt\5.15.1\mingw81_64\.\mkspecs\win32-g++;C:\Qt\5.15.1\mingw81_64\include\QtTest;C:\Qt\5.15.1\mingw81_64\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -319,11 +319,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message>Automatic MOC for target dcmcore_TestDcmTagString</Message>
       <Command>setlocal
-cd C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore
+cd C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/CMakeFiles/dcmcore_TestDcmTagString_autogen.dir/AutogenInfo.json RelWithDebInfo
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/CMakeFiles/dcmcore_TestDcmTagString_autogen.dir/AutogenInfo.json RelWithDebInfo
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -338,8 +338,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Gabriel/Documents/qt_lab/szpital_b/target/lib/RelWithDebInfo/dcmcore_TestDcmTagString.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Gabriel/Documents/qt_lab/szpital_b/target/bin/RelWithDebInfo/dcmcore_TestDcmTagString.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Gabriel/Documents/qt_lab/szpital/target/lib/RelWithDebInfo/dcmcore_TestDcmTagString.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Gabriel/Documents/qt_lab/szpital/target/bin/RelWithDebInfo/dcmcore_TestDcmTagString.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -351,7 +351,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gabriel/Documents/qt_lab/szpital -BC:/Users/Gabriel/Documents/qt_lab/szpital_b --check-stamp-file C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gabriel/Documents/qt_lab/szpital -BC:/Users/Gabriel/Documents/qt_lab/szpital --check-stamp-file C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -360,11 +360,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseArguments.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Test\Qt5TestConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Test\Qt5TestConfigExtras.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Test\Qt5TestConfigVersion.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\build_shared_library.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\link_libs.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\parse_src.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\parse_tests.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\resources\dcmcore.qrc;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gabriel/Documents/qt_lab/szpital -BC:/Users/Gabriel/Documents/qt_lab/szpital_b --check-stamp-file C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gabriel/Documents/qt_lab/szpital -BC:/Users/Gabriel/Documents/qt_lab/szpital --check-stamp-file C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -373,11 +373,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseArguments.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Test\Qt5TestConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Test\Qt5TestConfigExtras.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Test\Qt5TestConfigVersion.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\build_shared_library.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\link_libs.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\parse_src.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\parse_tests.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\resources\dcmcore.qrc;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gabriel/Documents/qt_lab/szpital -BC:/Users/Gabriel/Documents/qt_lab/szpital_b --check-stamp-file C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gabriel/Documents/qt_lab/szpital -BC:/Users/Gabriel/Documents/qt_lab/szpital --check-stamp-file C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -386,11 +386,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseArguments.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Test\Qt5TestConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Test\Qt5TestConfigExtras.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Test\Qt5TestConfigVersion.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\build_shared_library.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\link_libs.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\parse_src.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\parse_tests.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\resources\dcmcore.qrc;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gabriel/Documents/qt_lab/szpital -BC:/Users/Gabriel/Documents/qt_lab/szpital_b --check-stamp-file C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gabriel/Documents/qt_lab/szpital -BC:/Users/Gabriel/Documents/qt_lab/szpital --check-stamp-file C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -399,43 +399,43 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseArguments.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Test\Qt5TestConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Test\Qt5TestConfigExtras.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Test\Qt5TestConfigVersion.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;C:\Qt\5.15.1\mingw81_64\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\build_shared_library.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\link_libs.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\parse_src.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\cmake\parse_tests.cmake;C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\resources\dcmcore.qrc;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore_TestDcmTagString_autogen\mocs_compilation_Debug.cpp">
+    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\dcmcore_TestDcmTagString_autogen\mocs_compilation_Debug.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\test\test_TestDcmTagString.cpp" />
+    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\test\test_TestDcmTagString.cpp" />
     <ClInclude Include="C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\test\TestDcmTagString.h" />
-    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore_TestDcmTagString_autogen\mocs_compilation_Release.cpp">
+    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\dcmcore_TestDcmTagString_autogen\mocs_compilation_Release.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore_TestDcmTagString_autogen\mocs_compilation_MinSizeRel.cpp">
+    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\dcmcore_TestDcmTagString_autogen\mocs_compilation_MinSizeRel.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore_TestDcmTagString_autogen\mocs_compilation_RelWithDebInfo.cpp">
+    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\dcmcore_TestDcmTagString_autogen\mocs_compilation_RelWithDebInfo.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\ZERO_CHECK.vcxproj">
-      <Project>{38234D2B-F9A3-370C-BD51-4E6F52B1E98E}</Project>
+    <ProjectReference Include="C:\Users\Gabriel\Documents\qt_lab\szpital\ZERO_CHECK.vcxproj">
+      <Project>{CF48A707-A6E8-3B73-AE66-A5A63DA94588}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmcore\dcmcore.vcxproj">
-      <Project>{638134DA-3ACB-3A2B-B0A4-2B9334491E9A}</Project>
+    <ProjectReference Include="C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmcore\dcmcore.vcxproj">
+      <Project>{0883CE8F-B024-3E97-BA76-A1168EE3E9E0}</Project>
       <Name>dcmcore</Name>
     </ProjectReference>
   </ItemGroup>

@@ -42,7 +42,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
       message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-    file(INSTALL DESTINATION "C:/Program Files (x86)/qdcm/bin" TYPE SHARED_LIBRARY FILES "C:/Users/Gabriel/Documents/qt_lab/szpital_b/target/bin/Debug/dcmmod.dll")
+    file(INSTALL DESTINATION "C:/Program Files (x86)/qdcm/bin" TYPE SHARED_LIBRARY FILES "C:/Users/Gabriel/Documents/qt_lab/szpital/target/bin/Debug/dcmmod.dll")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/qdcm/bin/dcmmod.dll")
@@ -52,7 +52,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
       message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-    file(INSTALL DESTINATION "C:/Program Files (x86)/qdcm/bin" TYPE SHARED_LIBRARY FILES "C:/Users/Gabriel/Documents/qt_lab/szpital_b/target/bin/Release/dcmmod.dll")
+    file(INSTALL DESTINATION "C:/Program Files (x86)/qdcm/bin" TYPE SHARED_LIBRARY FILES "C:/Users/Gabriel/Documents/qt_lab/szpital/target/bin/Release/dcmmod.dll")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/qdcm/bin/dcmmod.dll")
@@ -62,7 +62,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
       message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-    file(INSTALL DESTINATION "C:/Program Files (x86)/qdcm/bin" TYPE SHARED_LIBRARY FILES "C:/Users/Gabriel/Documents/qt_lab/szpital_b/target/bin/MinSizeRel/dcmmod.dll")
+    file(INSTALL DESTINATION "C:/Program Files (x86)/qdcm/bin" TYPE SHARED_LIBRARY FILES "C:/Users/Gabriel/Documents/qt_lab/szpital/target/bin/MinSizeRel/dcmmod.dll")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/qdcm/bin/dcmmod.dll")
@@ -72,7 +72,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
       message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-    file(INSTALL DESTINATION "C:/Program Files (x86)/qdcm/bin" TYPE SHARED_LIBRARY FILES "C:/Users/Gabriel/Documents/qt_lab/szpital_b/target/bin/RelWithDebInfo/dcmmod.dll")
+    file(INSTALL DESTINATION "C:/Program Files (x86)/qdcm/bin" TYPE SHARED_LIBRARY FILES "C:/Users/Gabriel/Documents/qt_lab/szpital/target/bin/RelWithDebInfo/dcmmod.dll")
   endif()
 endif()
 

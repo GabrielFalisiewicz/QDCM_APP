@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmmod\dcmmod_TestDcmModules_autogen\mocs_compilation_Debug.cpp">
+    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmmod\dcmmod_TestDcmModules_autogen\mocs_compilation_Debug.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmmod\test\test_TestDcmModules.cpp">
+    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmmod\test\test_TestDcmModules.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmmod\dcmmod_TestDcmModules_autogen\mocs_compilation_Release.cpp">
+    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmmod\dcmmod_TestDcmModules_autogen\mocs_compilation_Release.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmmod\dcmmod_TestDcmModules_autogen\mocs_compilation_MinSizeRel.cpp">
+    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmmod\dcmmod_TestDcmModules_autogen\mocs_compilation_MinSizeRel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital_b\source\dcmmod\dcmmod_TestDcmModules_autogen\mocs_compilation_RelWithDebInfo.cpp">
+    <ClCompile Include="C:\Users\Gabriel\Documents\qt_lab\szpital\source\dcmmod\dcmmod_TestDcmModules_autogen\mocs_compilation_RelWithDebInfo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -27,10 +27,10 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{2567D024-3055-320A-A6A0-8F0FA5014102}</UniqueIdentifier>
+      <UniqueIdentifier>{5A7ADF41-5A4D-3C4A-B036-EA86AE74CD11}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{A45E866D-08BD-36BF-81BB-9AB0F218D873}</UniqueIdentifier>
+      <UniqueIdentifier>{65A8D37F-8827-3C12-AB02-78D45007EF6A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

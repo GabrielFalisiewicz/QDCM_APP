@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Gabriel/Documents/qt_lab/szpital_b/tools/dcmview/cmake_install.cmake")
+  include("C:/Users/Gabriel/Documents/qt_lab/szpital/tools/dcmview/cmake_install.cmake")
 
 endif()
 

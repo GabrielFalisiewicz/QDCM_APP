@@ -1,8 +1,8 @@
 {
 	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
-	"BUILD_DIR" : "C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/dcmcore_TestDcmTransferSyntax_autogen",
-	"CMAKE_BINARY_DIR" : "C:/Users/Gabriel/Documents/qt_lab/szpital_b",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore",
+	"BUILD_DIR" : "C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/dcmcore_TestDcmTransferSyntax_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/Gabriel/Documents/qt_lab/szpital",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore",
 	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore",
 	"CMAKE_EXECUTABLE" : "C:/Program Files/CMake/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
@@ -39,16 +39,16 @@
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/dcmcore_TestDcmTransferSyntax_autogen/include",
-	"INCLUDE_DIR_Debug" : "C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/dcmcore_TestDcmTransferSyntax_autogen/include_Debug",
-	"INCLUDE_DIR_MinSizeRel" : "C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/dcmcore_TestDcmTransferSyntax_autogen/include_MinSizeRel",
-	"INCLUDE_DIR_RelWithDebInfo" : "C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/dcmcore_TestDcmTransferSyntax_autogen/include_RelWithDebInfo",
-	"INCLUDE_DIR_Release" : "C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/dcmcore_TestDcmTransferSyntax_autogen/include_Release",
-	"MOC_COMPILATION_FILE" : "C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/dcmcore_TestDcmTransferSyntax_autogen/mocs_compilation.cpp",
-	"MOC_COMPILATION_FILE_Debug" : "C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/dcmcore_TestDcmTransferSyntax_autogen/mocs_compilation_Debug.cpp",
-	"MOC_COMPILATION_FILE_MinSizeRel" : "C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/dcmcore_TestDcmTransferSyntax_autogen/mocs_compilation_MinSizeRel.cpp",
-	"MOC_COMPILATION_FILE_RelWithDebInfo" : "C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/dcmcore_TestDcmTransferSyntax_autogen/mocs_compilation_RelWithDebInfo.cpp",
-	"MOC_COMPILATION_FILE_Release" : "C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/dcmcore_TestDcmTransferSyntax_autogen/mocs_compilation_Release.cpp",
+	"INCLUDE_DIR" : "C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/dcmcore_TestDcmTransferSyntax_autogen/include",
+	"INCLUDE_DIR_Debug" : "C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/dcmcore_TestDcmTransferSyntax_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/dcmcore_TestDcmTransferSyntax_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/dcmcore_TestDcmTransferSyntax_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/dcmcore_TestDcmTransferSyntax_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/dcmcore_TestDcmTransferSyntax_autogen/mocs_compilation.cpp",
+	"MOC_COMPILATION_FILE_Debug" : "C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/dcmcore_TestDcmTransferSyntax_autogen/mocs_compilation_Debug.cpp",
+	"MOC_COMPILATION_FILE_MinSizeRel" : "C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/dcmcore_TestDcmTransferSyntax_autogen/mocs_compilation_MinSizeRel.cpp",
+	"MOC_COMPILATION_FILE_RelWithDebInfo" : "C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/dcmcore_TestDcmTransferSyntax_autogen/mocs_compilation_RelWithDebInfo.cpp",
+	"MOC_COMPILATION_FILE_Release" : "C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/dcmcore_TestDcmTransferSyntax_autogen/mocs_compilation_Release.cpp",
 	"MOC_DEFINITIONS" : [],
 	"MOC_DEFINITIONS_Debug" : 
 	[
@@ -56,7 +56,7 @@
 		"QMUSIC_API_VERSION=\"1.0.0\"",
 		"QMUSIC_VERSION=\"0.0.1\"",
 		"QT_CORE_LIB",
-		"QT_TESTCASE_BUILDDIR=\"C:/Users/Gabriel/Documents/qt_lab/szpital_b\"",
+		"QT_TESTCASE_BUILDDIR=\"C:/Users/Gabriel/Documents/qt_lab/szpital\"",
 		"QT_TESTLIB_LIB",
 		"QT_XML_LIB",
 		"WIN32"
@@ -68,7 +68,7 @@
 		"QMUSIC_VERSION=\"0.0.1\"",
 		"QT_CORE_LIB",
 		"QT_NO_DEBUG",
-		"QT_TESTCASE_BUILDDIR=\"C:/Users/Gabriel/Documents/qt_lab/szpital_b\"",
+		"QT_TESTCASE_BUILDDIR=\"C:/Users/Gabriel/Documents/qt_lab/szpital\"",
 		"QT_TESTLIB_LIB",
 		"QT_XML_LIB",
 		"WIN32"
@@ -80,7 +80,7 @@
 		"QMUSIC_VERSION=\"0.0.1\"",
 		"QT_CORE_LIB",
 		"QT_NO_DEBUG",
-		"QT_TESTCASE_BUILDDIR=\"C:/Users/Gabriel/Documents/qt_lab/szpital_b\"",
+		"QT_TESTCASE_BUILDDIR=\"C:/Users/Gabriel/Documents/qt_lab/szpital\"",
 		"QT_TESTLIB_LIB",
 		"QT_XML_LIB",
 		"WIN32"
@@ -92,7 +92,7 @@
 		"QMUSIC_VERSION=\"0.0.1\"",
 		"QT_CORE_LIB",
 		"QT_NO_DEBUG",
-		"QT_TESTCASE_BUILDDIR=\"C:/Users/Gabriel/Documents/qt_lab/szpital_b\"",
+		"QT_TESTCASE_BUILDDIR=\"C:/Users/Gabriel/Documents/qt_lab/szpital\"",
 		"QT_TESTLIB_LIB",
 		"QT_XML_LIB",
 		"WIN32"
@@ -107,7 +107,6 @@
 	"MOC_INCLUDES" : [],
 	"MOC_INCLUDES_Debug" : 
 	[
-		"C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore",
 		"C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore",
 		"C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/include",
 		"C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/src",
@@ -120,7 +119,6 @@
 	],
 	"MOC_INCLUDES_MinSizeRel" : 
 	[
-		"C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore",
 		"C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore",
 		"C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/include",
 		"C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/src",
@@ -133,7 +131,6 @@
 	],
 	"MOC_INCLUDES_RelWithDebInfo" : 
 	[
-		"C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore",
 		"C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore",
 		"C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/include",
 		"C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/src",
@@ -146,7 +143,6 @@
 	],
 	"MOC_INCLUDES_Release" : 
 	[
-		"C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore",
 		"C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore",
 		"C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/include",
 		"C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/src",
@@ -166,24 +162,24 @@
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : true,
 	"PARALLEL" : 8,
-	"PARSE_CACHE_FILE" : "C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/CMakeFiles/dcmcore_TestDcmTransferSyntax_autogen.dir/ParseCache.txt",
-	"PARSE_CACHE_FILE_Debug" : "C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/CMakeFiles/dcmcore_TestDcmTransferSyntax_autogen.dir/ParseCache_Debug.txt",
-	"PARSE_CACHE_FILE_MinSizeRel" : "C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/CMakeFiles/dcmcore_TestDcmTransferSyntax_autogen.dir/ParseCache_MinSizeRel.txt",
-	"PARSE_CACHE_FILE_RelWithDebInfo" : "C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/CMakeFiles/dcmcore_TestDcmTransferSyntax_autogen.dir/ParseCache_RelWithDebInfo.txt",
-	"PARSE_CACHE_FILE_Release" : "C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/CMakeFiles/dcmcore_TestDcmTransferSyntax_autogen.dir/ParseCache_Release.txt",
+	"PARSE_CACHE_FILE" : "C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/CMakeFiles/dcmcore_TestDcmTransferSyntax_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/CMakeFiles/dcmcore_TestDcmTransferSyntax_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/CMakeFiles/dcmcore_TestDcmTransferSyntax_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/CMakeFiles/dcmcore_TestDcmTransferSyntax_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/CMakeFiles/dcmcore_TestDcmTransferSyntax_autogen.dir/ParseCache_Release.txt",
 	"QT_MOC_EXECUTABLE" : "C:/Qt/5.15.1/mingw81_64/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/CMakeFiles/dcmcore_TestDcmTransferSyntax_autogen.dir/AutogenUsed.txt",
-	"SETTINGS_FILE_Debug" : "C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/CMakeFiles/dcmcore_TestDcmTransferSyntax_autogen.dir/AutogenUsed_Debug.txt",
-	"SETTINGS_FILE_MinSizeRel" : "C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/CMakeFiles/dcmcore_TestDcmTransferSyntax_autogen.dir/AutogenUsed_MinSizeRel.txt",
-	"SETTINGS_FILE_RelWithDebInfo" : "C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/CMakeFiles/dcmcore_TestDcmTransferSyntax_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
-	"SETTINGS_FILE_Release" : "C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/CMakeFiles/dcmcore_TestDcmTransferSyntax_autogen.dir/AutogenUsed_Release.txt",
+	"SETTINGS_FILE" : "C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/CMakeFiles/dcmcore_TestDcmTransferSyntax_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/CMakeFiles/dcmcore_TestDcmTransferSyntax_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/CMakeFiles/dcmcore_TestDcmTransferSyntax_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/CMakeFiles/dcmcore_TestDcmTransferSyntax_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/CMakeFiles/dcmcore_TestDcmTransferSyntax_autogen.dir/AutogenUsed_Release.txt",
 	"SOURCES" : 
 	[
 		[
-			"C:/Users/Gabriel/Documents/qt_lab/szpital_b/source/dcmcore/test/test_TestDcmTransferSyntax.cpp",
+			"C:/Users/Gabriel/Documents/qt_lab/szpital/source/dcmcore/test/test_TestDcmTransferSyntax.cpp",
 			"Mu",
 			null
 		]
